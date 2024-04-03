@@ -88,16 +88,4 @@ function markup(arr) {
 }
 
 
-
-// gallery.addEventListener("click", handleClick);
-
-// function handleClick(event) {
-//     event.preventDefault();
-//     if (event.target.closest(".gallery-item")) {
-//         const largeImg = event.target.closest(".gallery-item").querySelector(".gallery-image").dataset.source;
-
-//         const instance = basicLightbox.create(`<img src="${largeImg}">`)
-//         instance.show();
-//     }
-// }
 const lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
